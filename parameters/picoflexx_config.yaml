@@ -10,4 +10,7 @@ cam0:
     auto_exposure_time: false
     topic_name: pcl
     topic_depth: depth/image_raw
+    topic_confidence: confidence/image_raw
+    topic_amplitude: amplitude/image_raw
+    topic_noise: noise/image_raw
     operation_mode: MODE_9_5FPS_2000
